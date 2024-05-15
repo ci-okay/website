@@ -1,6 +1,7 @@
 :root {
     --primary-color: #333;
-    --secondary-color: #6c757d;
+    /* --secondary-color: #6c757d; */
+    --secondary-color: silver;
     --success-color: #28a745;
     --info-color: #17a2b8;
     --warning-color: #ffc107;
@@ -133,4 +134,25 @@ li {
     font-size: small;
     font-weight: 900;
     font-style: italic;
+}
+
+.capes {
+    max-width: 250px;
+    border-radius: 1rem;
+    border: var(--light-color) 1px solid;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    border: var(--light-color) 1px solid;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.cardright {
+    margin-left: 0.75rem;
 }
